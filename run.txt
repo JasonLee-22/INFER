@@ -2,4 +2,4 @@
 These commands recreate the results from the paper.
 1. Pretrain a ComplEX and put the model under ./kbc/dataset We provide a model pretrained on ICEWS14.
 2. Run the data_builder.py in each dataset directory to generate inference data for INFER, we provide rules mined by TR-Rules
-3. python guided_apply.py --cuda --fraction 10 --thrshd 0.0005 --data_path ./icews14 --dataset icews14 --mask set_sqrt --temp 150 --kbc_path kbc/dataset/best_valid.model
+3. python guided_apply.py --cuda --fraction 10 --thrshd 0.0005 --data_path ./icews14 --dataset icews14 --mask set_sqrt --temp 15 --kbc_path kbc/dataset/best_valid.model
